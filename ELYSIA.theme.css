@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 :root {
     --img: url(https://cdn.discordapp.com/attachments/601793450949738516/655538242858516480/bg.png);
+    --font: 'Quicksand', sans-serif;
     --MainColor: rgb(0, 255, 0);
     --bg1: rgb(0, 196, 33);
     --bg2: rgb(7, 196, 170);
