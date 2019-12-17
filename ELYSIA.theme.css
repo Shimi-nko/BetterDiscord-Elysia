@@ -8,13 +8,12 @@
     --bg1: rgb(0, 196, 33);
     --bg2: rgb(7, 196, 170);
     --bg3: rgb(150, 0, 57);
-    --darkgrey: rgb(32, 32, 32);
-    --darkgrey5: rgba(14, 14, 14, 0.75);
     --Title: "𝓟𝓾𝓻𝓹𝓵𝓮 𝓦𝓲𝔃𝓪𝓻𝓭";
-    --HSL-size: 35px;
     --Online: rgb(255, 255, 255);
     --Idle: rgb(0,99,156);
     --Unavailable: rgb(122, 0, 0);
     --Spotify: rgb(20,167,71);
     --Streaming: rgb(70, 0, 192);
+    --darkgrey: rgb(32, 32, 32);
+    --darkgrey5: rgba(14, 14, 14, 0.75);
 }
