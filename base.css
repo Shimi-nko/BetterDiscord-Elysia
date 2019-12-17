@@ -503,21 +503,17 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
 }
 
 .headerSpotify-zpWxgT {
-    background: -webkit-linear-gradient(180deg, var(--Spotify) 0%, var(--darkgrey) 50%);
-    background: linear-gradient(180deg, var(--Spotify) 0%, var(--darkgrey) 50%);
-}
-
-.headerPlaying-j0WQBV {
-    color: var(--MainColor);
+    background: -webkit-linear-gradient(180deg, var(--Spotify) 0%, var(--darkgrey) 50%)!important;
+    background: linear-gradient(180deg, var(--Spotify) 0%, var(--darkgrey) 50%)!important;
 }
 
 .headerStreaming-2FjmGz {
-    background: -webkit-linear-gradient(180deg, var(--Streaming)  0%, var(--darkgrey) 50%);
-    background: linear-gradient(180deg, var(--Streaming)  0%, var(--darkgrey) 50%);
+    background: -webkit-linear-gradient(180deg, var(--Streaming)  0%, var(--darkgrey) 50%)!important;
+    background: linear-gradient(180deg, var(--Streaming)  0%, var(--darkgrey) 50%)!important;
 }
 
 .headerNormal-T_seeN {
-    background-color: var(--darkgrey)!important;
+    background: var(--darkgrey)!important;
 }
 
 .bodyInner-245q0L {
