@@ -491,7 +491,7 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
     fill: var(--Streaming) !important;
 }
 
-.headerPlaying-j0WQBV:after {
+.headerPlaying-j0WQBV:after, .headerSpotify-zpWxgT:after, .headerStreaming-2FjmGz:after, .headerNormal-T_seeN:after {
     position: relative;
     display: flex;
     content: "";
