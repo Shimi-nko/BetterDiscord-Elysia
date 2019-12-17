@@ -425,16 +425,16 @@ polyline {
 }
 
 .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
-    border-top-color: var(--darkgrey);
+    border-top-color: var(--darkgrey)!important;
 }
 
 .tooltipBlack-PPG47z {
-    background-color: var(--darkgrey);
+    background-color: var(--darkgrey)!important;
 }
 
 .tooltip-2QfLtc {
-    box-shadow: 0 2px 20px 2px var(--darkgrey5);
-    color: var(--MainColor);
+    box-shadow: 0 2px 20px 2px var(--darkgrey5)!important;
+    color: var(--MainColor)!important;
 }
 
 .tooltip-2QfLtc {
@@ -443,18 +443,17 @@ polyline {
 }
 
 .tooltipRed-8-9NeP {
-    background-color: var(--Unavailable);
-    color: var(--MainColor);
+    background-color: var(--Unavailable)!important;
+    color: var(--MainColor)!important;
 }
 
 .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
-    border-top-color: var(--Unavailable);
+    border-top-color: var(--Unavailable)!important;
 }
 
 .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
-    border-top-color: var(--Unavailable);
+    border-top-color: var(--Unavailable)!important;
 }
-
 .layer-v9HyYc>div>div>div:nth-child(1)>div>svg>foreignObject>div {
     background-color: var(--Online) !important;
 }
@@ -718,4 +717,9 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
+}
+
+.edited-DL9ECl, .timestampCozy-2hLAPV, .modeMuted-3osy7j .icon-1_QxNX, .modeMuted-3osy7j .name-3_Dsmg {
+    color: var(--MainColor)!important;
+    opacity: .5;
 }
