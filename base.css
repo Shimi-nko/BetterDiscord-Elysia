@@ -1,6 +1,5 @@
 @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
 @import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
-
 * {
     font-family: var(--font)!important;
     --text-link: var(--MainColor);
@@ -116,7 +115,9 @@ div>span>a:nth-child(1)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nt
     fill: var(--MainColor)!important;
 }
 
-.dividerContent-2L12VI:after, .dividerContent-2L12VI:before { background-color: var(--MainColor);}
+.dividerContent-2L12VI:after, .dividerContent-2L12VI:before, .dividerRed-MKoLlr .dividerContent-2L12VI:after, .dividerRed-MKoLlr .dividerContent-2L12VI:before {
+    background-color: var(--MainColor);
+}
 
 .bot-2Fta1w {
     font-size: 1em;
@@ -364,10 +365,7 @@ polyline {
 }
 
 .typing-2GQL18 {
-    position: absolute;
-    bottom: 40px;
-    left: 3.5%;
-    right: 0%;
+    /**/
 }
 
 .circleIconButton-jET_ig:hover {
@@ -710,7 +708,7 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
     flex: 1 1 auto;
 }
 
-.scrollableContainer-38zsVD {
+div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-chatContent>form>div>div {
     border-radius: 0 .5em 0 0;
     position: fixed;
     top: auto;
