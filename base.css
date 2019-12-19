@@ -727,11 +727,15 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     top: auto;
     bottom: 0em;
     left: 0em;
-    height: 2.75em;
+    min-height: 2.75em;
+}
+
+.activityPanel-28dQGo {
+    border: none!important
 }
 
 .container-3baos1 {
-    height: inherit;
+    height: 2.75em;
     padding: 0 .5em;
     margin: 0;
 }
