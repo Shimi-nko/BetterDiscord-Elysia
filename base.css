@@ -93,7 +93,7 @@ div>span>a:nth-child(1)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nt
     animation: bganim 10s ease infinite !important;
 }
 
-.panels-j1Uci_, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .markup-2BOw-j blockquote, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
+.scrollableContainer-2NUZem, .panels-j1Uci_, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .markup-2BOw-j blockquote, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
     background: var(--darkgrey5)!important;
     background-color: var(--darkgrey5);
     border-color: transparent!important;
@@ -519,7 +519,7 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
     background: linear-gradient(to bottom, var(--darkgrey5) 0%, var(--darkgrey) 20%);
 }
 
-.scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.attachWrapper-2TRKBi, .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: transparent!important;
     border: none!important;
 }
