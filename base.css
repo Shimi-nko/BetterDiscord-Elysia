@@ -70,11 +70,11 @@
     background-color: var(--darkgrey5)!important;
 }
 
-.headerText-1HLrL7, .or-3THJsp, .or-3THJsp, .wordmarkWindows-1v0lYD, div.children-19S4PO.da-children>div.iconWrapper-2OrFZ1.da-iconWrapper {
+.titleChecked-2wg0pd>div>svg, .title-3BE6m5>div>svg, .icon-1_QxNX, .modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .modeUnread-1zpFdA .icon-1_QxNX, .modeUnread-1zpFdA:hover .icon-1_QxNX, .footer-1kmXd4, .protip-YaFfgO, .headerText-1HLrL7, .or-3THJsp, .or-3THJsp, .wordmarkWindows-1v0lYD, div.children-19S4PO.da-children>div.iconWrapper-2OrFZ1.da-iconWrapper {
     display: none !important;
 }
 
-div>span>a:nth-child(1)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nth-child(2)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nth-child(3)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nth-child(4)>div>div.content-3QAtGj.da-content>div>div {
+.checkbox-1ix_J3>svg, div>span>a:nth-child(1)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nth-child(2)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nth-child(3)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nth-child(4)>div>div.content-3QAtGj.da-content>div>div {
     display: none;
 }
 
@@ -93,17 +93,18 @@ div>span>a:nth-child(1)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nt
     animation: bganim 10s ease infinite !important;
 }
 
-.messagesPopout-24nkyi, .header-ykumBX, .autocomplete-1vrmpx, .iconBadge-2wi9r4.participating-NBGDkr, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .scrollableContainer-2NUZem, .panels-j1Uci_, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .markup-2BOw-j blockquote, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
+.message-2qRu38, .messagesPopout-24nkyi, .header-ykumBX, .autocomplete-1vrmpx, .iconBadge-2wi9r4.participating-NBGDkr, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .scrollableContainer-2NUZem, .panels-j1Uci_, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .markup-2BOw-j blockquote, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
     background: var(--darkgrey5)!important;
     background-color: var(--darkgrey5);
     border-color: transparent!important;
+    box-shadow: none!important;
 }
 
 .menu-Sp6bN1, .clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj, .autocomplete-1vrmpx, #bda-qem-twitch-container, #bda-qem-favourite-container, .message-2qRu38, .header-ykumBX, .messagesPopout-24nkyi, .contextMenu-HLZMGh {
     background-color: var(--darkgrey);
 }
 
-.selectorSelected-1_M1WV {
+.card-FDVird:before, .button-2CgfFz, .selectorSelected-1_M1WV {
     background-color: var(--darkgrey)!important;
 }
 
@@ -111,7 +112,7 @@ div>span>a:nth-child(1)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nt
     background-color: transparent!important;
 }
 
-.reactionCount-2ddRoS, .container-1giJp5, .dividerContent-2L12VI, .description-2ydcYn, .base-1x0h_U, .actionButton-VzECiy, .activityProfile-2bJRaP .content-3JfFJh, .activityProfile-2bJRaP .details-38sfDr, .activityProfile-2bJRaP .name-29ETJS, .activityUserPopout-2yItg2 .content-3JfFJh, .activityUserPopout-2yItg2 .details-38sfDr, .activityUserPopout-2yItg2 .name-29ETJS, .header-2BwW8b.size16-14cGz5 .creationDate, .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .roleName-32vpEy, .userSettingsAccount-2eMFVR .viewBody-2Qz-jg, .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy, #bd-settings-sidebar .ui-tab-bar-item, .regionSelect-3lf4eE button, .headerName-fajvi9, .attachButtonPlay-ZnFdQr, .input-cIJ7To, .icon-3cZ1F_, .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root, .modeSelected-1zApJ_ .name-3_Dsmg, .modeSelected-1zApJ_:hover .name-3_Dsmg, .headerTag-2pZJzA span, .nameTag-m8r81H .username-2b1r56 {
+.side-8zPYf6 .item-PXvHYJ, .modeUnread-1zpFdA .name-3_Dsmg, .itemBase-tz5SeC.brand-3igrJY, .itemBase-tz5SeC.brand-3igrJY:hover, .label-1Y-LW5, .reactionCount-2ddRoS, .container-1giJp5, .dividerContent-2L12VI, .description-2ydcYn, .base-1x0h_U, .actionButton-VzECiy, .activityProfile-2bJRaP .content-3JfFJh, .activityProfile-2bJRaP .details-38sfDr, .activityProfile-2bJRaP .name-29ETJS, .activityUserPopout-2yItg2 .content-3JfFJh, .activityUserPopout-2yItg2 .details-38sfDr, .activityUserPopout-2yItg2 .name-29ETJS, .header-2BwW8b.size16-14cGz5 .creationDate, .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .roleName-32vpEy, .userSettingsAccount-2eMFVR .viewBody-2Qz-jg, .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy, #bd-settings-sidebar .ui-tab-bar-item, .regionSelect-3lf4eE button, .headerName-fajvi9, .attachButtonPlay-ZnFdQr, .input-cIJ7To, .icon-3cZ1F_, .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root, .modeSelected-1zApJ_ .name-3_Dsmg, .modeSelected-1zApJ_:hover .name-3_Dsmg, .headerTag-2pZJzA span, .nameTag-m8r81H .username-2b1r56 {
     color: var(--MainColor)!important;
 }
 
@@ -136,6 +137,10 @@ div>span>a:nth-child(1)>div>div.content-3QAtGj.da-content>div>div, div>span>a:nt
     width: 100%;
 }
 
+.activityPanel-28dQGo, .card-FDVird:before {
+    border: none!important
+}
+
 div>span>a:nth-child(1)>div>div.avatar-3uk_u9.da-avatar, div>span>a:nth-child(2)>div>div.avatar-3uk_u9.da-avatar, div>span>a:nth-child(3)>div>div.avatar-3uk_u9.da-avatar, div>span>a:nth-child(4)>div>div.avatar-3uk_u9.da-avatar {
     margin: 0;
 }
@@ -147,8 +152,7 @@ div>span>a:nth-child(1)>div>div.avatar-3uk_u9.da-avatar, div>span>a:nth-child(2)
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
     width: 100%;
 }
-div.tabBar-2UKwcE.da-tabBar.top-28JiJ- > div:nth-child(2), .actionBody-1qj65C,
-.edited-DL9ECl, .timestampCozy-2hLAPV, .modeMuted-3osy7j .icon-1_QxNX, .modeMuted-3osy7j .name-3_Dsmg, .mentionFilter-1PQ6ey .label-12YslM {
+div.tabBar-2UKwcE.da-tabBar.top-28JiJ- > div:nth-child(2), .actionBody-1qj65C, .lastPlayed-3bQ7Bo, .overlayStatusText-L2IACa, .edited-DL9ECl, .timestampCozy-2hLAPV, .modeMuted-3osy7j .icon-1_QxNX, .modeMuted-3osy7j .name-3_Dsmg, .mentionFilter-1PQ6ey .label-12YslM {
     color: var(--MainColor)!important;
     opacity: .5;
 }
@@ -223,10 +227,6 @@ polyline {
     stroke: var(--MainColor)!important;
 }
 
-.checkbox-1ix_J3>svg {
-    display: none;
-}
-
 .checkbox-1ix_J3 {
     border: 1px solid var(--MainColor)!important;
 }
@@ -238,14 +238,6 @@ polyline {
 .actionButtons-1sUUug {
     transition: none!important;
     -webkit-transition: none!important;
-}
-
-.icon-1_QxNX, .modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .modeUnread-1zpFdA .icon-1_QxNX, .modeUnread-1zpFdA:hover .icon-1_QxNX, .footer-1kmXd4, .protip-YaFfgO {
-    display: none!important;
-}
-
-.side-8zPYf6 .item-PXvHYJ, .modeUnread-1zpFdA .name-3_Dsmg {
-    color: var(--MainColor)!important;
 }
 
 .sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP {
@@ -271,10 +263,6 @@ polyline {
 
 .attachWrapper-1_D-pj {
     border-right: none!important;
-}
-
-.titleChecked-2wg0pd>div>svg, .title-3BE6m5>div>svg {
-    display: none;
 }
 
 .item-26Dhrx .flex-1O1GKY>svg {
@@ -687,7 +675,7 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
     border-radius: .5em;
 }
 
-.strikethrough-3Wiitd, .strikethrough-1n4ekb {
+.strikethrough-3Wiitd, .strikethrough-1n4ekb, .itemBase-tz5SeC.danger-2dXSTE, .itemBase-tz5SeC.danger-2dXSTE:hover {
     color: var(--Unavailable);
 }
 
@@ -742,10 +730,6 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     min-height: 2.75em;
 }
 
-.activityPanel-28dQGo {
-    border: none!important
-}
-
 .container-3baos1 {
     height: 2.75em;
     padding: 0 .5em;
@@ -755,7 +739,6 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
 .autocomplete-Z9HwQh {
     bottom: 2.75em!important;
 }
-
 
 .total-3tKGEB { 
     padding: 0;
@@ -781,10 +764,25 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     border-color: var(--Unavailable)!important;
 }
 
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: var(--MainColor)!important;
+    border-color: var(--Unavailable)!important;  
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
+    color: var(--Unavailable)!important;
+    border-color: var(--Unavailable)!important;  
+}
+
+
 .numberBadge-2s8kKX {
     border-radius: .5em;
 }
 
 .item-3T2z1R {
     border-color: var(--darkgrey)!important
+}
+
+.leave-1DRJfn.da-leave>div>svg>path, .overlayToggleIconOff-1kT42w .fill-1ugeBG, .overlayToggleIconOff-1kT42w rect {
+    fill: var(--Unavailable)!important;
 }
