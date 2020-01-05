@@ -62,6 +62,7 @@
 .typeWindows-1za-n7 {
     background: var(--darkgrey5);
     margin-top: 0;
+    z-index: 1;
 }
 
 .typeWindows-1za-n7:after {
