@@ -771,7 +771,7 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
 }
 
 .chatContent-a9vAAp {
-    margin-bottom: 3.5em;
+    margin-bottom: 48px;
     margin-right: 3.5em;
 }
 
@@ -841,9 +841,13 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     fill: var(--Unavailable)!important;
 }
 
-.inner-MADQqc, .scrollableContainer-2NUZem {
+.chat-3bRxxu.da-chat > div.content-yTz4x3.da-content > div > form > div > div > div {
     height: 48px;
     max-height: 48px;
+}
+
+.panel-24C3ux {
+    padding: 0!important
 }
 
 .textArea-12jD-V {
@@ -859,9 +863,7 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
 }
 
 .body-GmmuPm {
-    position: fixed;
-    bottom: 3.25em;
-    left: 0;
+    margin: 0em 0em .25em 0em;
     background-color: var(--darkgrey5);
     padding: 0.75em .5em .75em .5em;
     width: 262px;
