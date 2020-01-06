@@ -378,7 +378,7 @@ polyline {
 }
 
 .scrollableContainer-2NUZem {
-    background: linear-gradient(to right, var(--darkgrey5) 50%, transparent 90%)!important;   
+    background: transparent!important;   
 }
 
 .typing-2GQL18 {
@@ -413,9 +413,9 @@ polyline {
 .nicknames-1XK4Zt, .akaBadge-1M-1Gw {
     margin: 0;
     height: 2em;
-    padding: 0.25em 0.5em;
+    padding: 0.25em 0em;
     font-size: 0.75em;
-    background-color: var(--darkgrey5);
+    background-color:transparent;
     color: var(--MainColor);
 }
 
@@ -425,6 +425,7 @@ polyline {
 
 .akaBadge-1M-1Gw:after {
     content: " : ";
+    padding-right: 0.5em;
     color: var(--MainColor);
 }
 
@@ -800,15 +801,25 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
 
 .container-3baos1 {
     background-color: var(--darkgrey5);
-    padding: 0em 0em 0em .5em!important;
     height: 48px;
-    margin: 0;
+    width: 270px;
+    padding: 0em 0em 0em .5em!important;
+    border-radius: 0 .5em .5em 0;
+    margin: 0em .5em .3em 0em;
+}
+
+.body-GmmuPm {
+    background-color: var(--darkgrey5);
+    height: 48px;
+    width: 270px;
+    padding: 0em 0em 0em .5em;
+    border-radius: 0 .5em .5em 0;
+    margin: 0em .5em .25em 0em;
 }
 
 .autocomplete-Z9HwQh {
     bottom: 0em!important;
 }
-
 
 .total-3tKGEB { 
     padding: 0;
@@ -875,14 +886,6 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
 
 .header-2o-2hj, .content-yTz4x3:before {
     box-shadow: none!important;
-}
-
-.body-GmmuPm {
-    margin: 0em 0em .25em 0em;
-    background-color: var(--darkgrey5);
-    padding: 0.75em .5em .75em .5em;
-    width: 262px;
-    border-radius: 0 .5em .5em 0;
 }
 
 .callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi {
