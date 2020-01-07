@@ -1,5 +1,6 @@
-//META{"name":"Frost","description":"An amazing Light theme with full customization included, made by Purple Wizard.","author":"𝓟𝓾𝓻𝓹𝓵𝓮 𝓦𝓲𝔃𝓪𝓻𝓭#3154","version":"1.1", "website":"https://github.com/GoldenLys/"}*//{}
+//META{"name":"Frost","description":"An amazing Light theme with full customization included, made by Purple Wizard. Thank's to Gibbu#1211 for the horizontal server list.","author":"𝓟𝓾𝓻𝓹𝓵𝓮 𝓦𝓲𝔃𝓪𝓻𝓭#3154","version":"1.1", "website":"https://github.com/GoldenLys/"}*//{}
 @import url('https://goldenlys.github.io/BetterDiscord-Elysia/base.css');
+@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 :root {
     --img: url(https://cdn.discordapp.com/attachments/476154188494143498/656603513425494016/LiElysia.jpg);
