@@ -431,7 +431,7 @@ polyline {
     display: block;
     background: transparent!important;
     border-radius: .5em .5em 0em 0em;
-    bottom: 0!important;
+    bottom: 3em!important;
     text-align: center;
     left: 45px;
 }
@@ -537,29 +537,6 @@ polyline {
     color: var(--Online) !important;
 }
 
-rect[fill="rgba(67, 181, 129, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"] {
-    fill: var(--Online) !important;
-}
-
-rect[fill="rgba(250, 166, 26, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"] {
-    fill: var(--Idle) !important;
-}
-
-.lookFilled-1Gx00P.colorRed-1TFJan, .callAvatarStatus-3vMeXZ.voice-3bPYC- {
-    background-color: var(--Unavailable) !important;
-}
-
-rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"] {
-    fill: var(--Unavailable) !important;
-}
-
-rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
-    fill: var(--darkgrey) !important;
-}
-
-.header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"] {
-    fill: var(--Streaming) !important;
-}
 .headerXbox-3G-4PF:after, .headerPlaying-j0WQBV:after, .headerSpotify-zpWxgT:after, .headerStreaming-2FjmGz:after, .headerNormal-T_seeN:after {
     position: relative;
     display: flex;
@@ -942,6 +919,53 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
 }
 
 .layer-v9HyYc {
-    left: 0;
     min-width: 280px;
+}
+
+.icon-27yU2q,.avatar-VxgULZ,.avatarHint-1qgaV3,.avatar-3elDyV,.avatarDefault-35WC3R,.avatarSpeaking-1wJCNq,.container-2td-dC *,.button-OhfaWu.wrapper-1BJsBx,.iconInactive-98JN5i,.avatarWrapperNormal-3wFMbf,.avatarUploaderInner-3UNxY3,.systemPad-3UxEGl > .listItem-2P_4kh:first-child .svg-1X37T1 {
+  border-radius: .5em !important;
+}
+
+.mask-3OgeRz,.avatarHint-1qgaV3 > foreignObject,.svg-1X37T1 > foreignObject,.mask-1qbNWk > foreignObject {
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+#app-mount > svg > mask[id^="svg-mask-avatar-"] > circle[fill="white"] {
+  transform: translate(-50%, -50%) scale(2.0) !important;
+}
+
+svg.mask-1l8v16 > mask > circle[fill="white"] {
+  transform: translate(-50%, -50%) scale(2.0) !important;
+}
+
+rect[fill="rgba(67, 181, 129, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-online"] {
+    fill: var(--Online) !important;
+}
+
+rect[fill="rgba(250, 166, 26, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-idle"] {
+    fill: var(--Idle) !important;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan, .callAvatarStatus-3vMeXZ.voice-3bPYC- {
+    background-color: var(--Unavailable) !important;
+}
+
+rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-dnd"] {
+    fill: var(--Unavailable) !important;
+}
+
+rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
+    fill: var(--darkgrey) !important;
+}
+
+.header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"] {
+    fill: var(--Streaming) !important;
+}
+
+.webkit-HjD9Er .buttons-3JBrkn {
+    right: 0;
+    top: 95.5%;
+    position: fixed;
+    bottom: 0;
 }
