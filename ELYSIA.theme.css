@@ -1,4 +1,4 @@
-//META{"name":"ELYSIA","description":"An amazing RGB theme with full customization included, made by Purple Wizard. Thank's to Gibbu#1211 for the horizontal server list.","author":"𝓟𝓾𝓻𝓹𝓵𝓮 𝓦𝓲𝔃𝓪𝓻𝓭#3154","version":"1.1", "website":"https://github.com/GoldenLys/"}*//{}
+//META{"name":"ELYSIA","description":"An amazing RGB theme with full customization included, made by Purple Wizard. Thank's to Gibbu#1211 for the horizontal server list.","author":"𝓟𝓾𝓻𝓹𝓵𝓮 𝓦𝓲𝔃𝓪𝓻𝓭#3154","version":"1.2", "website":"https://github.com/GoldenLys/"}*//{}
 @import url('https://goldenlys.github.io/BetterDiscord-Elysia/base.css');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
@@ -17,4 +17,5 @@
     --Streaming: rgb(70, 0, 192);
     --darkgrey: rgb(32, 32, 32);
     --darkgrey5: rgba(14, 14, 14, 0.75);
+    --membersWrap: 60px; /*Default: 60px | You can set it to 240px to make it always shown*/
 }
