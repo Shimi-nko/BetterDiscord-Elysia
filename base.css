@@ -688,10 +688,53 @@ polyline {
     width: 280px!important;
 }
 
+.markup-2BOw-j blockquote {
+    border-radius: 0 .5em .5em 0;
+}
+
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    border-radius: .5em 0 0 .5em;
+}
+
+.members-1998pB {
+    overflow: hidden;
+    width: 60px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+}
+
+.membersWrap-2h-GB4 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: var(--membersWrap);
+    margin-bottom: 3em;
+}
+
 .membersGroup-v9BXpm {
+    display: inline;
     margin: 0 auto;
     text-align: center;
-    display: inline;
+    opacity: 0;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    opacity: 1;
+}
+
+.membersWrap-2h-GB4 .members-1998pB:before {
+    display: block;
+    position: absolute;
+    width: var(--membersWrap);
+    top: 0;
+    right: var(--membersWrap);
+    content: "";
+    height: 100%;
 }
 
 .membersGroup-v9BXpm:after {
@@ -704,40 +747,11 @@ polyline {
     flex: 1 1 auto;
 }
 
-.markup-2BOw-j blockquote {
-    border-radius: 0 .5em .5em 0;
-}
-
-.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
-    border-radius: .5em 0 0 .5em;
-}
-
-.members-1998pB {
-    display: grid;
-    overflow: hidden;
-    width: 60px;
-}
-
-.membersWrap-2h-GB4 {
-    display: initial!important;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    min-width: var(--membersWrap);
-    margin-bottom: 3em;
-}
-
 .members-1998pB:hover {
-    display: block;
     overflow: auto;
     width: 240px;
     transition: all 500ms;
     -webkit-transition: all 500ms;
-}
-
-.membersWrap-2h-GB4:hover {
-    display: initial!important;
 }
 
 .membersWrap-2h-GB4:hover .members-1998pB {
@@ -967,6 +981,7 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
 div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.da-scrollerWrap.da-firefoxFixScrollFlex.scrollerWrap-1IAIlv.da-scrollerWrap.scrollerThemed-2oenus.da-scrollerThemed.themeGhostHairline-DBD-2d > div > div:nth-child(1) > div.listItemWrapper-3X98Pc.da-listItemWrapper > div > svg > foreignObject > a > div > svg > path{
  display: none;
 }
+
 div[aria-label$=", Offline"]>svg>foreignObject { 
     mask: none!important;
 }
