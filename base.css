@@ -132,7 +132,7 @@ div.tabBar-1E2ExX.da-tabBar.topPill-30KHOu > div:nth-child(5), .total-3tKGEB, .h
     -webkit-animation: bganim 10s ease infinite !important;
     animation: bganim 10s ease infinite !important;
 }
-.row-rrHHJU.selected-1pIgLL,.container-VSDcQc .sectionTag-pXyto9, .message-2qRu38, .messagesPopout-24nkyi, .header-ykumBX, .autocomplete-1vrmpx, .iconBadge-2wi9r4.participating-NBGDkr, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .markup-2BOw-j blockquote, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
+.row-rrHHJU.selected-1pIgLL,.container-VSDcQc .sectionTag-pXyto9, .message-2qRu38, .messagesPopout-24nkyi, .header-ykumBX, .autocomplete-1vrmpx, .iconBadge-2wi9r4.participating-NBGDkr, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
     background: var(--darkgrey5)!important;
     background-color: var(--darkgrey5);
     border-color: transparent!important;
@@ -992,4 +992,14 @@ div[aria-label$=", Offline"]>svg>foreignObject {
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/store"] {
     background-image: url(https://cdn.discordapp.com/attachments/662824403381518374/664221915229192249/Elysia.png);
     background-size: contain;
+}
+.markup-2BOw-j blockquote:after{
+    position: relative;
+    display: flex;
+    content: "";
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    border-top: .5em solid var(--darkgrey5);
+    border-radius: .5em;
 }
