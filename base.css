@@ -1,5 +1,4 @@
-* {
-    font-family: var(--font)!important;
+.theme-dark, .theme-light {
     --text-link: var(--MainColor);
     --text-normal: var(--MainColor);
     --background-primary: var(--darkgrey);
@@ -20,6 +19,8 @@
     --HSL-roundness: .5em;
     --HSL-roundnessHover: 20%;
 }
+
+::placeholder, body, button, input, select, textarea { font-family: var(--font)!important; }
 
 @keyframes bganim {
     0% {
