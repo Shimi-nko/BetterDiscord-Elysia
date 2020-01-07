@@ -96,7 +96,7 @@ div.tabBar-1E2ExX.da-tabBar.topPill-30KHOu > div:nth-child(5), .total-3tKGEB, .h
     z-index: -1;
 }
 
-.toolbar-1t6TWx.da-toolbar>a>div, .base-gE7OpD .ellipsis-19qdx6, .headerText-1HLrL7, .or-3THJsp, .or-3THJsp, .wordmarkWindows-1v0lYD, div.children-19S4PO.da-children>div.iconWrapper-2OrFZ1.da-iconWrapper {
+.guildSeparator-3s64Iy, .toolbar-1t6TWx.da-toolbar>a>div, .base-gE7OpD .ellipsis-19qdx6, .headerText-1HLrL7, .or-3THJsp, .or-3THJsp, .wordmarkWindows-1v0lYD, div.children-19S4PO.da-children>div.iconWrapper-2OrFZ1.da-iconWrapper {
     display: none !important;
 }
 .privateChannels-1nO12o > div > div > a:nth-child(2),
@@ -399,16 +399,6 @@ polyline {
     border: none;
     margin-bottom: 0px;
     background-color: transparent;
-}
-
-.guildSeparator-3s64Iy {
-    background-color: var(--darkgrey5);
-    border-radius: .5em;
-    width: .5em!important;
-    position: relative;
-    height: 1vh;
-    top: 40%;
-    height: 1vh!important;
 }
 
 .item-2hkk8m {
@@ -742,6 +732,8 @@ polyline {
     display: block;
     overflow: auto;
     width: 240px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
 }
 
 .membersWrap-2h-GB4:hover {
@@ -957,7 +949,8 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 }
 
 rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
-    fill: var(--darkgrey) !important;
+    fill: transparent!important;
+    mask: none!important;
 }
 
 .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"] {
@@ -969,4 +962,18 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
     top: 95.5%;
     position: fixed;
     bottom: 0;
+}
+
+div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.da-scrollerWrap.da-firefoxFixScrollFlex.scrollerWrap-1IAIlv.da-scrollerWrap.scrollerThemed-2oenus.da-scrollerThemed.themeGhostHairline-DBD-2d > div > div:nth-child(1) > div.listItemWrapper-3X98Pc.da-listItemWrapper > div > svg > foreignObject > a > div > svg > path{
+ display: none;
+}
+div[aria-label$=", Offline"]>svg>foreignObject { 
+    mask: none!important;
+}
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/channels/@me"],
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/activity"],
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/library"],
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/store"] {
+    background-image: url(https://cdn.discordapp.com/attachments/662824403381518374/664221915229192249/Elysia.png);
+    background-size: contain;
 }
