@@ -771,6 +771,7 @@ rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-
 
 .membersWrap-2h-GB4:hover .members-1998pB {
     background-color: var(--darkgrey5)!important;
+    border-radius: .5em 0 0 .5em;
 }
 
 .descChecked-XkfPsU, .titleChecked-2wg0pd, .categoryFadeBlurple-1j72_A {
