@@ -36,6 +36,7 @@
 .container-3ayLPN, .option-96V44q.selected-rZcOL-, .option-96V44q.selected-rZcOL-:after, .searchResultsWrap-2DKFzt {
     background: var(--darkgrey5)!important;
 }
+
 .channelSeparator-1X1FuH .channelName-1QajIf, .searchResult-3pzFAB:before,.searchResult-3pzFAB:after,.searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
 .option-96V44q:after, .searchHeader-1l-wpR {
     background: transparent!important;
@@ -43,7 +44,7 @@
     box-shadow: none!important;
 }
 
-.total-3tKGEB, .header-2BwW8b, .regionSelect-3lf4eE:hover button, .barInner-3NDaY_, .checked-3_4uQ9, .footer-1fjuF6:after, .headerPlaying-j0WQBV, .headerXbox-3G-4PF, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY, .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover, .css-1wqqa50-container, .searchBox-3Y2Vi7, .blockquoteDivider-2hH8H6, .item-2hkk8m, .membersGroup-v9BXpm:after, .isMentionedCozy-3isp7y:after, .closeButton-1tv5uR, .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .circleIconButton-jET_ig, #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .bda-slist .bda-footer button, .lookOutlined-3sRXeN.colorBrand-3pXr91, .unread-3zKkbm, .appMount-3lHmkl, body, html {
+div.tabBar-1E2ExX.da-tabBar.topPill-30KHOu > div:nth-child(5), .total-3tKGEB, .header-2BwW8b, .regionSelect-3lf4eE:hover button, .barInner-3NDaY_, .checked-3_4uQ9, .footer-1fjuF6:after, .headerPlaying-j0WQBV, .headerXbox-3G-4PF, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY, .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover, .css-1wqqa50-container, .searchBox-3Y2Vi7, .blockquoteDivider-2hH8H6, .item-2hkk8m, .membersGroup-v9BXpm:after, .isMentionedCozy-3isp7y:after, .closeButton-1tv5uR, .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .circleIconButton-jET_ig, #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .bda-slist .bda-footer button, .lookOutlined-3sRXeN.colorBrand-3pXr91, .unread-3zKkbm, .appMount-3lHmkl, body, html {
     background: -webkit-linear-gradient(100deg, var(--bg1) 10%, var(--bg2) 35%, var(--bg3))!important;
     background: linear-gradient(100deg, var(--bg1) 10%, var(--bg2) 35%, var(--bg3))!important;
     background-size: 800% 800%!important;
@@ -337,7 +338,7 @@ polyline {
 
 .sidebar-2K8pFh {
     width: 280px;
-    margin: 0;
+    margin: 4px 0 0 0;
 }
 
 .chat-3bRxxu, .form-2fGMdU, .activityFeed-1C0EmJ, .gameLibrary-TTDw4Y, .root-1BQpZw, .applicationStore-1pNvnv {
@@ -930,6 +931,17 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     -webkit-box-shadow: inset 0 0 0 3px var(--Online);
     box-shadow: inset 0 0 0 3px var(--Online);
 }
-.container-2Rl01u.da-container.clickable-2ap7je.da-clickable.hasBanner-14PPlG.da-hasBanner.bannerVisible-14J9lQ.da-bannerVisible {
-    margin-top: 10px;
+
+.friendsTable-133bsv .friendsTableHeader-32yE7d,.friendsTable-133bsv:before,.friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ {
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ {
+    direction: ltr;
+}
+
+.layer-v9HyYc {
+    left: 0;
+    min-width: 280px;
 }
