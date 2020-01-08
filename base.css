@@ -1003,3 +1003,7 @@ div[aria-label$=", Offline"]>svg>foreignObject {
     border-top: .5em solid var(--darkgrey5);
     border-radius: .5em;
 }
+
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
+    top: -0.5em!important;
+}
