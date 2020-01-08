@@ -371,13 +371,9 @@ polyline {
 }
 
 .unread-3zKkbm {
-    position: absolute;
     height: 85%;
-    width: 4px;
-    border-radius: 0 4px 4px 0;
-    top: 0%;
-    left: 0;
-    margin-top: 1%;
+    border-radius: 0 .5em .5em 0;
+    top: 15%;
 }
 
 .bda-slist .bda-footer button, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
