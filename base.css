@@ -1013,6 +1013,7 @@ div[aria-label$=", Offline"]>svg>foreignObject {
 }
 
 #MemberCount {
+    position: initial;
     background: initial;
     display: unset;
     width: 100%;
