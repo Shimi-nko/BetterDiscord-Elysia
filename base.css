@@ -734,6 +734,10 @@ polyline {
     height: 100%;
 }
 
+.membersWrap-2h-GB4:hover .members-1998pB:before {
+    display: none;
+}
+
 .membersGroup-v9BXpm:after {
     display: block;
     width: 240px;
