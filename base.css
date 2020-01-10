@@ -1015,10 +1015,6 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
     text-align: center;
 }
 
-.toolbar-1t6TWx .iconWrapper-2OrFZ1[tabindex]:nth-child(1) {
-    display:none;
-}
-
 .bodyInner-245q0L, .footer-1fjuF6 {
     background-color: transparent;
     color: var(--MainColor);
