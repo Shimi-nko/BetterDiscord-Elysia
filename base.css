@@ -362,7 +362,6 @@ polyline {
     top: 0%;
     margin: 2px 0!important;
 }
-
 .bda-slist .bda-footer button, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--darkgrey);
     color: var(--MainColor);
@@ -711,13 +710,9 @@ polyline {
     opacity: 1;
 }
 
-.membersWrap-2h-GB4:before {
+.membersWrap-2h-GB4:before, .membersWrap-2h-GB4:hover::before {
     width: var(--membersWrap);
     content: "";
-}
-
-.membersWrap-2h-GB4:hover .membersWrap-2h-GB4:before {
-    width: 0;
 }
 
 .membersWrap-2h-GB4:hover .members-1998pB {
