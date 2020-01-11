@@ -710,9 +710,13 @@ polyline {
     opacity: 1;
 }
 
-.membersWrap-2h-GB4:before, .membersWrap-2h-GB4:hover::before {
+.membersWrap-2h-GB4:before {
     width: var(--membersWrap);
     content: "";
+}
+
+.membersWrap-2h-GB4:hover::before {
+    width: 5px;
 }
 
 .membersWrap-2h-GB4:hover .members-1998pB {
