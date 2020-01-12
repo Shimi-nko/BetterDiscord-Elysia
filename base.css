@@ -711,15 +711,11 @@ polyline {
 }
 
 .membersWrap-2h-GB4:before {
-    width: var(--membersWrap);
+    width: 30px;
     content: "";
 }
 
-.membersWrap-2h-GB4:hover::before {
-    width: 5px;
-}
-
-.membersWrap-2h-GB4:hover .members-1998pB {
+.membersWrap-2h-GB4:hover .members-1998pB{
     overflow: auto;
     width: 240px;
     transition: all 500ms;
