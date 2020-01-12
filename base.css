@@ -58,6 +58,7 @@
     background-size: cover;
     background-position: center center;
     background-image: var(--img);
+    opacity: 0.95;
 }
 
 ::-moz-selection {
@@ -96,7 +97,7 @@
     z-index: -1;
 }
 
-.blockquoteDivider-2hH8H6, .guildSeparator-3s64Iy, .toolbar-1t6TWx.da-toolbar>a>div, .base-gE7OpD .ellipsis-19qdx6, .headerText-1HLrL7, .or-3THJsp, .or-3THJsp, .wordmarkWindows-1v0lYD, div.children-19S4PO.da-children>div.iconWrapper-2OrFZ1.da-iconWrapper {
+.blockquoteDivider-2hH8H6, .guildSeparator-3s64Iy, .toolbar-1t6TWx.da-toolbar>a>div, .base-gE7OpD .ellipsis-19qdx6, .or-3THJsp, .or-3THJsp, .wordmarkWindows-1v0lYD, div.children-19S4PO.da-children>div.iconWrapper-2OrFZ1.da-iconWrapper {
     display: none !important;
 }
 
@@ -118,7 +119,7 @@
     -webkit-animation: bganim 10s ease infinite !important;
     animation: bganim 10s ease infinite !important;
 }
-.embedFull-2tM8--, .row-rrHHJU.selected-1pIgLL,.container-VSDcQc .sectionTag-pXyto9, .message-2qRu38, .messagesPopout-24nkyi, .header-ykumBX, .autocomplete-1vrmpx, .iconBadge-2wi9r4.participating-NBGDkr, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
+.botTagRegular-2HEhHi, .embedFull-2tM8--, .row-rrHHJU.selected-1pIgLL,.container-VSDcQc .sectionTag-pXyto9, .message-2qRu38, .messagesPopout-24nkyi, .header-ykumBX, .autocomplete-1vrmpx, .iconBadge-2wi9r4.participating-NBGDkr, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .searchBar-3dMhjb, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .selected-aXhQR6 .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md.selected-aXhQR6 .layout-2DM8Md, .bot-2Fta1w, .reaction-1ELvT8, .reaction-1ELvT8.reactionMe-23mbRf, .root-1gCeng, .infoBar-U6oBFk, .uploadModal-2ifh8j, .footer-3mqk7D, .footer-3rDWdC, .attachment-33OFj0, .progress-1IcQ3A, .modal-yWgWj-, .outer-2IVh5n, .scrollableContainer-38zsVD, .wrapper-35wsBm, .sidebarRegionScroller-3MXcoP, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e {
     background: var(--darkgrey5)!important;
     background-color: var(--darkgrey5);
     border-color: transparent!important;
@@ -510,6 +511,10 @@ polyline {
     color: var(--Online) !important;
 }
 
+.headerTop-3C2Zn0 {
+    padding: .5em .5em;
+}
+
 .headerXbox-3G-4PF:after, .headerPlaying-j0WQBV:after, .headerSpotify-zpWxgT:after, .headerStreaming-2FjmGz:after, .headerNormal-T_seeN:after {
     position: relative;
     display: flex;
@@ -522,13 +527,11 @@ polyline {
 }
 
 .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    background: -webkit-linear-gradient(180deg, var(--Spotify) 0%, var(--darkgrey) 50%)!important;
-    background: linear-gradient(180deg, var(--Spotify) 0%, var(--darkgrey) 50%)!important;
+    background: var(--Spotify)!important;
 }
 
 .headerStreaming-2FjmGz {
-    background: -webkit-linear-gradient(180deg, var(--Streaming) 0%, var(--darkgrey) 50%)!important;
-    background: linear-gradient(180deg, var(--Streaming) 0%, var(--darkgrey) 50%)!important;
+    background: var(--Streaming)!important;
 }
 
 .headerNormal-T_seeN {
@@ -606,17 +609,18 @@ polyline {
 
 .role-2irmRk {
     background-color: var(--darkgrey5);
-    border-color: var(--darkgrey5)!important;
     margin: 0 .5em .5em 0;
     padding: 1em 1em 1em 0;
+    height: 26px;
     border-radius: .5em;
 }
 
 .roleCircle-3xAZ1j {
     border-radius: .5em 0 0 .5em;
-    width: .5em;
-    height: 2em;
-    margin: 0 1em 0 -0.1em;
+    height: 26px;
+    margin: 0 .5em 0 -.1px;
+    padding: 0 5px;
+    width: 0;
 }
 
 .addButtonIcon-1NMJ8u {
@@ -726,9 +730,10 @@ polyline {
 
 .membersGroup-v9BXpm:after {
     display: block;
-    width: 240px;
+    width: 85%;
+    margin: 0em 1.5em;
     content: "";
-    height: .25em;
+    height: .5em;
     border-radius: .5em;
 }
 
@@ -764,7 +769,10 @@ polyline {
 }
 
 .activity-11LB_k {
-    background-color: rgba(0, 0, 0, .15);
+    background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.25) 50%);
+    border-radius: .5em;
+    margin: 0 .5em;
+    padding: 1em .5em;
 }
 
 .footer-1fjuF6:after {
@@ -1017,4 +1025,19 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
 
 .note-3HfJZ5 textarea {
     height: 100%!important;
+}
+
+.headerTextNormal-2mGWX3 {
+    text-align: center;
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+}
+
+.contentImagesUserPopout-1vLdRA.content-3JfFJh>.timestamp-VjAZmo.ellipsis-1XUmPN.textRow-19NEd_ {
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 0em;
+    margin-top: .5em;
 }
