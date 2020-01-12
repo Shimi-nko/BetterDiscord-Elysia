@@ -967,13 +967,15 @@ div[aria-label$=", Offline"]>svg>foreignObject {
     mask: none!important;
 }
 
-.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/channels/@me"],
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/channels/@me/"],
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/activity"],
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/library"],
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/store"] {
     background-image: url(https://cdn.discordapp.com/attachments/662824403381518374/664221915229192249/Elysia.png);
     background-size: contain;
 }
+
+.wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh a[href*="/channels/@me/"] { background-image:  none;}
 
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/channels/@me"] div,
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/activity"] div,
