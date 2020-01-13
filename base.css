@@ -1045,3 +1045,7 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
 .button-14-BFJ.disabled-2iW-fm {
     opacity: 0;
 }
+
+.markup-2BOw-j > div > em > strong {
+    padding: 0 .5em 0 0;
+}
