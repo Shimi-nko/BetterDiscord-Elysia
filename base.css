@@ -978,6 +978,7 @@ div[aria-label$=", Offline"]>svg>foreignObject {
 }
 
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/channels/@me/"],
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href="/channels/@me"],
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/activity"],
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/library"],
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a[href*="/store"] {
