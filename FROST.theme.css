@@ -19,5 +19,5 @@
     --Streaming: rgb(70, 0, 192);
     --darkgrey: rgb(32, 32, 32);
     --darkgrey5: rgba(14, 14, 14, 0.75);
-    --membersWrap: 240px; /*Default: 60px | You can set it to 240px to make it always shown*/
+    --membersWrap: 60px; /*Default: 60px | You can set it to 240px to make it always shown*/
 }
