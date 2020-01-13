@@ -1,0 +1,22 @@
+//META{"name":"FROST","description":"An amazing theme with full customization included, made by Purple Wizard. Thank's to Gibbu#1211 for the horizontal server list.","author":"ᴘᴜʀᴘʟᴇ ᴡɪᴢᴀʀᴅ#0984","version":"1.3", "website":"https://github.com/GoldenLys/"}*//{}
+@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+:root {
+    --img: rgb(28, 28, 28);
+    --font: 'Quicksand', sans-serif;
+    --MainColor: rgb(200, 200, 200);
+    --bg1: rgb(255, 255, 255);
+    --bg2: rgb(255, 255, 255);
+    --bg3: rgb(255, 255, 255);
+    --bg4: rgb(255, 255, 255);
+    --bg5: rgb(255, 255, 255);
+    --Title: "F R O S T";
+    --Online: rgb(255, 255, 255);
+    --Idle: rgb(0,99,156);
+    --Unavailable: rgb(122, 0, 0);
+    --Spotify: rgb(20,167,71);
+    --Streaming: rgb(70, 0, 192);
+    --darkgrey: rgb(32, 32, 32);
+    --darkgrey5: rgba(14, 14, 14, 0.75);
+    --membersWrap: 240px; /*Default: 60px | You can set it to 240px to make it always shown*/
+}
