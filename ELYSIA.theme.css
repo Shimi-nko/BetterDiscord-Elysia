@@ -3,12 +3,14 @@
 @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 :root {
-    --img: url(https://cdn.discordapp.com/attachments/662824403381518374/663983186153439233/wp.jpg);
+    --img: url(https://cdn.discordapp.com/attachments/662824403381518374/666280983166713876/wp.jpg);
     --font: 'Quicksand', sans-serif;
     --MainColor: rgb(255, 255, 255);
-    --bg1: rgb(0, 196, 33);
-    --bg2: rgb(7, 196, 170);
-    --bg3: rgb(150, 0, 57);
+    --bg1: rgb(150, 0, 57);
+    --bg2: rgb(221, 189, 5);
+    --bg3: rgb(0, 196, 33);
+    --bg4: rgb(7, 196, 170);
+    --bg5: rgb(40, 0, 150);
     --Title: "Elysia";
     --Online: rgb(255, 255, 255);
     --Idle: rgb(0,99,156);
