@@ -96,7 +96,7 @@
     margin: 0 auto;
     z-index: -1;
 }
-
+.chat-3bRxxu > .title-3qD0b- > .children-19S4PO > div,
 .blockquoteDivider-2hH8H6, .guildSeparator-3s64Iy, .toolbar-1t6TWx.da-toolbar>a>div, .base-gE7OpD .ellipsis-19qdx6, .or-3THJsp, .or-3THJsp, .wordmarkWindows-1v0lYD, div.children-19S4PO.da-children>div.iconWrapper-2OrFZ1.da-iconWrapper {
     display: none !important;
 }
@@ -735,7 +735,7 @@ polyline {
     border-radius: .5em;
 }
 
-.strikethrough-3Wiitd, .strikethrough-1n4ekb, .itemBase-tz5SeC.danger-2dXSTE, .itemBase-tz5SeC.danger-2dXSTE:hover {
+.strikethrough-3Wiitd, .strikethrough-1n4ekb, .itemBase-tz5SeC.danger-2dXSTE, .itemBase-tz5SeC.danger-2dXSTE:hover, .item-1GzJrl.leave-1DRJfn {
     color: var(--Unavailable);
 }
 
@@ -925,7 +925,7 @@ rect[fill="rgba(250, 166, 26, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-s
     fill: var(--Idle) !important;
 }
 
-.lookFilled-1Gx00P.colorRed-1TFJan, .callAvatarStatus-3vMeXZ.voice-3bPYC- {
+.lookFilled-1Gx00P.colorRed-1TFJan, .callAvatarStatus-3vMeXZ.voice-3bPYC-, .iconBadge-qZ4Ksk {
     background-color: var(--Unavailable) !important;
 }
 
@@ -1011,8 +1011,8 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
 }
 
 .bodyInner-245q0L, .footer-1fjuF6 {
-    background-color: transparent;
-    color: var(--MainColor);
+    background-color: transparent!important;
+    color: var(--MainColor)!important;
 }
 
 .note-3HfJZ5 textarea {
@@ -1048,4 +1048,20 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
 
 .markup-2BOw-j > div > em > strong {
     padding: 0 .5em 0 0;
+}
+
+.bannerImage-1jOskm {
+    border-radius: .5em;
+}
+
+.animatedContainer-1pJv5C {
+    width: -webkit-fill-available;
+    margin: .5em .25em .25em 0.25em;
+}
+
+.animatedContainer-1pJv5C, .bannerVisible-14J9lQ .header-2o-2hj, .bannerImage-1jOskm:before {
+    background:transparent!important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    filter: none;
 }
