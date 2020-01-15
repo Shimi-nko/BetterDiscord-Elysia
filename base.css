@@ -408,8 +408,13 @@ polyline {
     padding-top: .25em;
 }
 
+
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 8"] {
-    transform: none!important;
+    transform: scale(0.5, 1) !important;
+}
+
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 20"] {
+    transform: scale(1, 1) !important;
 }
 
 .scrollableContainer-2NUZem {
@@ -483,7 +488,6 @@ polyline {
     box-shadow: none!important;
     text-align: center;
     border-radius:.5em!important;
-    padding:.5em 1em!important;
     color: var(--MainColor)!important;
 }
 
@@ -800,14 +804,6 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     margin-right: 3.5em;
 }
 
-.panels-j1Uci_ {
-    border-radius: .5em 0 0 0;
-    top: auto;
-    bottom: 0em;
-    left: 0em;
-    min-height: 48px;
-}
-
 .container-3baos1 {
     background-color: var(--darkgrey5);
     height: 48px;
@@ -910,10 +906,6 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
 
 .friendsTable-133bsv div div {
     direction: ltr;
-}
-
-.layer-v9HyYc {
-    min-width: 280px;
 }
 
 .icon-27yU2q,.avatar-VxgULZ,.avatarHint-1qgaV3,.avatar-3elDyV,.avatarDefault-35WC3R,.avatarSpeaking-1wJCNq,.container-2td-dC *,.button-OhfaWu.wrapper-1BJsBx,.iconInactive-98JN5i,.avatarWrapperNormal-3wFMbf,.avatarUploaderInner-3UNxY3,.systemPad-3UxEGl > .listItem-2P_4kh:first-child .svg-1X37T1 {
@@ -1019,6 +1011,21 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
     border-radius: .5em;
 }
 
+.videoInner-3OR9J2:after {
+    position: relative;
+    display: flex;
+    content: "";
+    margin-top: -2em;
+    height: 3.5em;
+    width: 97.5%;
+    border-radius: .5em;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    background: linear-gradient(to bottom, transparent, var(--darkgrey5));
+}
+
+
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
     top: -0.5em!important;
 }
@@ -1085,4 +1092,12 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
     -webkit-box-shadow: none;
     box-shadow: none;
     filter: none;
+}
+
+.layer-v9HyYc {
+    min-width: 280px;
+}
+
+div.layer-v9HyYc.disabledPointerEvents-1ptgTB[style^="left: -97px"] {
+    left: 0!important;
 }
