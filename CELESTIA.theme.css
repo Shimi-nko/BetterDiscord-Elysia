@@ -1,19 +1,19 @@
-//META{"name":"FROST","description":"An amazing theme with full customization included, made by Purple Wizard. Thank's to Gibbu#1211 for the horizontal server list.","author":"ᴘᴜʀᴘʟᴇ ᴡɪᴢᴀʀᴅ#0984","version":"1.0", "website":"https://github.com/GoldenLys/"}*//{}
+//META{"name":"","description":"An amazing theme with full customization included, made by Purple Wizard. Thank's to Gibbu#1211 for the horizontal server list.","author":"ᴘᴜʀᴘʟᴇ ᴡɪᴢᴀʀᴅ#0984","version":"1.3", "website":"https://github.com/GoldenLys/"}*//{}
 @import url('https://goldenlys.github.io/BetterDiscord-Elysia/flatbase.theme.css');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 :root {
     --logo: url(https://cdn.discordapp.com/attachments/662824403381518374/664221915229192249/Elysia.png);
-    --background: rgb(28, 28, 28); /* You can also use : url(LINKtoIMAGE)*/
+    --background: rgb(8, 59, 68); /* You can also use : url(LINKtoIMAGE)*/
     --font: 'Quicksand', sans-serif;
-    --MainColor: rgb(200, 200, 200);
-    --SecondaryColor: rgb(255, 255, 255);
-    --Title: "F R O S T";
+    --MainColor: rgb(255, 255, 255);
+    --SecondaryColor: rgb(4, 176, 182);
+    --Title: "C E L E S T I A";
     --Online: rgb(0, 211, 105);
     --Idle: rgb(0,99,156);
     --Unavailable: rgb(228, 46, 0);
     --Spotify: rgb(20,167,71);
     --Streaming: rgb(70, 0, 192);
-    --darkgrey: rgb(32, 32, 32);
-    --darkgrey5: rgba(14, 14, 14, 0.75);
+    --darkgrey: rgb(163, 163, 163);
+    --darkgrey5: rgba(99, 99, 99, 0.5);
 }
