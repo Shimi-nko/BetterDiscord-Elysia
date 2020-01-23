@@ -1,22 +1,21 @@
-//META{"name":"C E L E S T I A","description":"An amazing theme with full customization included, made by Purple Wizard.","author":"𝓟𝓾𝓻𝓹𝓵𝓮 𝓦𝓲𝔃𝓪𝓻𝓭#3154","version":" BETA", "website":"https://github.com/GoldenLys/"}*//{}
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 :root {
+    --Title: "FLATbase";
     --logo: url(https://cdn.discordapp.com/attachments/662824403381518374/664221915229192249/Elysia.png);
-    --background: rgb(8, 59, 68); /* You can also use : url(LINKtoIMAGE)*/
+    --background: rgb(0, 0, 0);
     --font: 'Quicksand', sans-serif;
     --MainColor: rgb(255, 255, 255);
-    --SecondaryColor: rgb(4, 176, 182);
-    --Title: "C E L E S T I A";
-    --Online: rgb(0, 211, 105);
+    --SecondaryColor: rgb(150, 0, 180);
+    --Online: rgb(0, 255, 136);
     --Idle: rgb(0,99,156);
     --Unavailable: rgb(228, 46, 0);
-    --Spotify: rgb(20,167,71);
+    --Offline: rgb(116, 127, 141);
+    --Playing: rgb(0, 221, 250); 
+    --Xbox: rgb(5, 150, 5);
+    --Spotify: rgb(19, 218, 88);
     --Streaming: rgb(70, 0, 192);
-    --darkgrey: rgb(163, 163, 163);
-    --darkgrey5: rgba(99, 99, 99, 0.5);
-}
+    --darkgrey: rgb(20, 20, 20);
+    --darkgrey5: rgba(20, 20, 20, 0.35);
+} 
 .theme-dark, .theme-light {
     --text-link: var(--MainColor);
     --text-normal: var(--MainColor);
@@ -39,10 +38,28 @@
     --HSL-roundnessHover: 20%;
 }
 
+div[style*="background-color: rgb(114, 137, 218);"] {
+    background-color: var(--SecondaryColor)!important;
+}
+
+.verified-1eC5dy {
+    color: var(--SecondaryColor)!important;
+}
+
 ::placeholder, body, button, input, select, textarea { font-family: var(--font)!important; }
 
-.container-3ayLPN, .option-96V44q.selected-rZcOL-, .option-96V44q.selected-rZcOL-:after, .searchResultsWrap-2DKFzt {
+.contentWrapper-3WC1ID, .container-3ayLPN, .option-96V44q.selected-rZcOL-, .option-96V44q.selected-rZcOL-:after, .searchResultsWrap-2DKFzt {
     background: var(--darkgrey5)!important;
+}
+
+.searchBox-3Y2Vi7, .emptyUsers--hiToV, .codeRedemptionRedirect-1wVR4b, .defaultIndicator-G3c16x, .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    color: var(--MainColor)!important;
+    background-color: var(--darkgrey)!important;
+    border-color: var(--darkgrey)!important;
+}
+
+.disabled-3I9jyo {
+    color: var(--darkgrey)!important;
 }
 
 .channelSeparator-1X1FuH .channelName-1QajIf, .searchResult-3pzFAB:before,.searchResult-3pzFAB:after,.searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
@@ -52,9 +69,45 @@
     box-shadow: none!important;
 }
 
-.topPill-30KHOu > div:nth-child(5), .total-3tKGEB, .header-2BwW8b, .regionSelect-3lf4eE:hover button, .barInner-3NDaY_, .checked-3_4uQ9, .footer-1fjuF6:after, .headerPlaying-j0WQBV, .headerXbox-3G-4PF, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY, .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover, .css-1wqqa50-container, .searchBox-3Y2Vi7, .item-2hkk8m, .membersGroup-v9BXpm:after, .isMentionedCozy-3isp7y:after, .closeButton-1tv5uR, .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .circleIconButton-jET_ig, #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .bda-slist .bda-footer button, .lookOutlined-3sRXeN.colorBrand-3pXr91, .unread-3zKkbm, .appMount-3lHmkl, body, html {
-    background: var(--SecondaryColor)!important;
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+    border-color: var(--MainColor)!important;
+    background-color: var(--MainColor)!important;
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:after {
+    border-color: var(--SecondaryColor);
+}
+
+.topPill-30KHOu > div:nth-child(5), .total-3tKGEB, .header-2BwW8b, .regionSelect-3lf4eE:hover button, .barInner-3NDaY_, .checked-3_4uQ9, .footer-1fjuF6:after, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY, .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover, .css-1wqqa50-container, .searchBox-3Y2Vi7, .item-2hkk8m, .closeButton-1tv5uR, .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, #bd-settings-sidebar .ui-tab-bar-item.selected, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .bda-slist .bda-footer button, .lookOutlined-3sRXeN.colorBrand-3pXr91, .unread-3zKkbm, body, html {
+    background: var(--MainColor)!important;
     color: var(--MainColor)!important;
+}
+.headerXbox-3G-4PF {
+    background: var(--Xbox)!important;
+}
+.headerPlaying-j0WQBV {
+    background: var(--Playing)!important;
+}
+ .headerStreaming-2FjmGz {
+    background: var(--Streaming)!important;
+}
+
+
+.membersGroup-v9BXpm:after, .isMentionedCozy-3isp7y:after, .themeDefault-24hCdX.valueChecked-m-4IJZ, .selected-mKYnfr.option-n0icdO {
+    background: var(--SecondaryColor)!important;
+    color: var(--SecondaryColor)!important;
+}
+
+.theme-dark .nowPlaying-284llR, .theme-light .nowPlaying-284llR {
+    background: var(--SecondaryColor)!important;
+}
+
+.lookLink-9FtZy-.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91, .circleIconButton-jET_ig, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ { 
+    color: var(--SecondaryColor)!important;
+}
+
+path[fill="#dcddde"] {
+    fill: var(--SecondaryColor)!important;
 }
 
 .app-19_DXt, .bg-h5JY_x {
@@ -109,7 +162,7 @@
     box-shadow: none!important;
 }
 
-.users-i_3-kL, .title-2Dc-Cb, .sampleLink-KPFu3I, .channelName-3kBz6H, .themedPopout-1TrfdI .header-2Kf7Yu .title-2-NHs5, .join-33Tr-7 .actionHeader-2CT5c7, .join-33Tr-7 .actionHeader-2CT5c7, .header-3ZP1MY, .create-3jownz .actionHeader-2CT5c7, .create-3jownz .actionHeader-2CT5c7, #bd-settings-sidebar a, .anchor-3Z-8Bb, .base-gE7OpD strong, .wrapper-3WhCwL, .wrapper-3WhCwL:hover, .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention, .isMentioned-N-h9aa .mention:hover, .isMentioned-N-h9aa .mention:hover, .keybind-KpFkfr, .header-2RyJ0Y, #bd-settings-sidebar .ui-tab-bar-header, .defaultColor-1_ajX0, .bda-slist .bda-footer a, .markup-2BOw-j a, .fakeLink-11RWCQ, .modeConnected-2IEL4z .name-3_Dsmg, .modeConnected-2IEL4z:hover .name-3_Dsmg, .modeUnread-1zpFdA:hover .name-3_Dsmg, .notInteractive-YF5EXq.modeConnected-2IEL4z .name-3_Dsmg, .notInteractive-YF5EXq.modeSelected-1zApJ_ .name-3_Dsmg, .operations-36ENbA>a, .bodyTitle-Y0qMQz, .nameTag-m8r81H .discriminator-19kRMP, .reactionMe-23mbRf .reactionCount-2ddRoS, .reactionMe-23mbRf:hover .reactionCount-2ddRoS, .typeWindows-1za-n7:after, .headerText-1-AnT0, .title-eS5yk3, .markup-2BOw-j strong, .default-3sgIpy, .hovered-d5PMVU, .name-3YKhmS, .name-IbjUBS, .placeholder-P6ptfj, .membersGroup-v9BXpm, .base-34jWEe h1 {
+.modeSelected-1zApJ_ .name-3_Dsmg, .modeSelected-1zApJ_:hover .name-3_Dsmg, .users-i_3-kL, .title-2Dc-Cb, .sampleLink-KPFu3I, .channelName-3kBz6H, .themedPopout-1TrfdI .header-2Kf7Yu .title-2-NHs5, .join-33Tr-7 .actionHeader-2CT5c7, .join-33Tr-7 .actionHeader-2CT5c7, .header-3ZP1MY, .create-3jownz .actionHeader-2CT5c7, .create-3jownz .actionHeader-2CT5c7, #bd-settings-sidebar a, .anchor-3Z-8Bb, .base-gE7OpD strong, .wrapper-3WhCwL, .wrapper-3WhCwL:hover, .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention, .isMentioned-N-h9aa .mention:hover, .isMentioned-N-h9aa .mention:hover, .keybind-KpFkfr, .header-2RyJ0Y, #bd-settings-sidebar .ui-tab-bar-header, .defaultColor-1_ajX0, .bda-slist .bda-footer a, .markup-2BOw-j a, .fakeLink-11RWCQ, .modeConnected-2IEL4z .name-3_Dsmg, .modeConnected-2IEL4z:hover .name-3_Dsmg, .modeUnread-1zpFdA:hover .name-3_Dsmg, .notInteractive-YF5EXq.modeConnected-2IEL4z .name-3_Dsmg, .notInteractive-YF5EXq.modeSelected-1zApJ_ .name-3_Dsmg, .operations-36ENbA>a, .bodyTitle-Y0qMQz, .nameTag-m8r81H .discriminator-19kRMP, .reactionMe-23mbRf .reactionCount-2ddRoS, .reactionMe-23mbRf:hover .reactionCount-2ddRoS, .typeWindows-1za-n7:after, .headerText-1-AnT0, .title-eS5yk3, .markup-2BOw-j strong, .name-3YKhmS, .name-IbjUBS, .placeholder-P6ptfj, .membersGroup-v9BXpm, .base-34jWEe h1 {
     font-weight: bold!important;
     color: var(--SecondaryColor)!important;
 }
@@ -120,22 +173,27 @@
     border-color: transparent!important;
     box-shadow: none!important;
 }
-.clickable-2ap7je .header-2o-2hj:hover, .autocomplete-1vrmpx, #bda-qem-twitch-container, #bda-qem-favourite-container, .message-2qRu38, .header-ykumBX, .messagesPopout-24nkyi, .contextMenu-HLZMGh {
+.lookFilled-1Gx00P.colorBrand-3pXr91, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .clickable-2ap7je .header-2o-2hj:hover, .autocomplete-1vrmpx, #bda-qem-twitch-container, #bda-qem-favourite-container, .message-2qRu38, .header-ykumBX, .messagesPopout-24nkyi, .contextMenu-HLZMGh {
     background-color: var(--darkgrey);
 }
-.spoilerText-3p6IlD.hidden-HHr2R9, .autocompleteArrow-Zxoy9H, .autocompleteHeaderBackground-30T70q, .card-FDVird:before, .button-2CgfFz, .selectorSelected-1_M1WV {
+
+.bar-2Qqk5Z, .bottomDivider-1K9Gao, .paginator-166-09, .paymentPane-3bwJ6A, .option-n0icdO, .themeDefault-24hCdX, .spoilerText-3p6IlD.hidden-HHr2R9, .autocompleteArrow-Zxoy9H, .autocompleteHeaderBackground-30T70q, .card-FDVird:before, .button-2CgfFz, .selectorSelected-1_M1WV {
     background-color: var(--darkgrey)!important;
 }
 
-.panels-j1Uci_, .video-1FfuMD, .theme-dark .wrapper-29NfPK, .headerFill-adLl4x, .childWrapper-anI2G9, .container-2XeR5Z, .container-3gCOGc, .jumpButton-3DTcS_, .slide-2pHaq5, .wrapper-2ZbzR9, .pageWrapper-1PgVDX, .chat-3bRxxu, .form-2fGMdU, .activityFeed-1C0EmJ, .gameLibrary-TTDw4Y, .root-1BQpZw, .applicationStore-1pNvnv, .sidebar-2K8pFh, .standardSidebarView-3F1I7i, .layer-3QrUeG, .app-1q1i1E, .app-2rEoOp, .messagesPopoutWrap-1MQ1bW, .attachWrapper-1_D-pj, .scroller-9moviB, .scroller-5bBood, .scroller-1IIF0A, .header-39GIC8, .members-1998pB, .friendsTable-133bsv .friendsTableBody-1ZhKif, .privateChannels-1nO12o, .scroller-1JbKMe, .inner-zqa7da, .attachButtonDivider-3Glu60, .wrapper-1Rf91z, .scroller-2TZvBN, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .container-PNkimc {
+.users-i_3-kL, .panels-j1Uci_, .video-1FfuMD, .theme-dark .wrapper-29NfPK, .headerFill-adLl4x, .childWrapper-anI2G9, .container-2XeR5Z, .container-3gCOGc, .jumpButton-3DTcS_, .slide-2pHaq5, .wrapper-2ZbzR9, .pageWrapper-1PgVDX, .chat-3bRxxu, .form-2fGMdU, .activityFeed-1C0EmJ, .gameLibrary-TTDw4Y, .root-1BQpZw, .applicationStore-1pNvnv, .sidebar-2K8pFh, .standardSidebarView-3F1I7i, .layer-3QrUeG, .app-1q1i1E, .app-2rEoOp, .messagesPopoutWrap-1MQ1bW, .attachWrapper-1_D-pj, .scroller-9moviB, .scroller-5bBood, .scroller-1IIF0A, .header-39GIC8, .members-1998pB, .friendsTable-133bsv .friendsTableBody-1ZhKif, .privateChannels-1nO12o, .scroller-1JbKMe, .inner-zqa7da, .attachButtonDivider-3Glu60, .wrapper-1Rf91z, .scroller-2TZvBN, .container-1r6BKw.themed-ANHk51, .messages-3amgkR, .container-PNkimc {
     background-color: transparent!important;
 }
-.quickSelectPopout-X1hvgV, .regionSelectName-c5qL8O, .clickable-1JJAn8.container-2Pjhx-:hover, .clickable-1JJAn8.container-2Pjhx-:active,.selected-aXhQR6.container-2Pjhx-, .container-2Pjhx-, .container-VSDcQc .input-1ppKdn, .content-Qb0rXO, .side-8zPYf6 .item-PXvHYJ, .modeUnread-1zpFdA .name-3_Dsmg, .itemBase-tz5SeC.brand-3igrJY, .itemBase-tz5SeC.brand-3igrJY:hover, .label-1Y-LW5, .reactionCount-2ddRoS, .container-1giJp5, .dividerContent-2L12VI, .description-2ydcYn, .base-1x0h_U, .actionButton-VzECiy, .activityProfile-2bJRaP .content-3JfFJh, .activityProfile-2bJRaP .details-38sfDr, .activityProfile-2bJRaP .name-29ETJS, .activityUserPopout-2yItg2 .content-3JfFJh, .activityUserPopout-2yItg2 .details-38sfDr, .activityUserPopout-2yItg2 .name-29ETJS, .header-2BwW8b.size16-14cGz5 .creationDate, .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .roleName-32vpEy, .userSettingsAccount-2eMFVR .viewBody-2Qz-jg, .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy, #bd-settings-sidebar .ui-tab-bar-item, .regionSelect-3lf4eE button, .headerName-fajvi9, .attachButtonPlay-ZnFdQr, .input-cIJ7To, .icon-3cZ1F_, .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root, .modeSelected-1zApJ_ .name-3_Dsmg, .modeSelected-1zApJ_:hover .name-3_Dsmg, .headerTag-2pZJzA span, .nameTag-m8r81H .username-2b1r56 {
+.clickable-3rdHwn .icon-22AiRD, .default-3sgIpy, .hovered-d5PMVU, .appMount-3lHmkl, .quickSelectPopout-X1hvgV, .regionSelectName-c5qL8O, .clickable-1JJAn8.container-2Pjhx-:hover, .clickable-1JJAn8.container-2Pjhx-:active,.selected-aXhQR6.container-2Pjhx-, .container-2Pjhx-, .container-VSDcQc .input-1ppKdn, .content-Qb0rXO, .side-8zPYf6 .item-PXvHYJ, .modeUnread-1zpFdA .name-3_Dsmg, .itemBase-tz5SeC.brand-3igrJY, .itemBase-tz5SeC.brand-3igrJY:hover, .label-1Y-LW5, .reactionCount-2ddRoS, .container-1giJp5, .dividerContent-2L12VI, .description-2ydcYn, .base-1x0h_U, .actionButton-VzECiy, .activityProfile-2bJRaP .content-3JfFJh, .activityProfile-2bJRaP .details-38sfDr, .activityProfile-2bJRaP .name-29ETJS, .activityUserPopout-2yItg2 .content-3JfFJh, .activityUserPopout-2yItg2 .details-38sfDr, .activityUserPopout-2yItg2 .name-29ETJS, .header-2BwW8b.size16-14cGz5 .creationDate, .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .roleName-32vpEy, .userSettingsAccount-2eMFVR .viewBody-2Qz-jg, .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy, #bd-settings-sidebar .ui-tab-bar-item, .regionSelect-3lf4eE button, .headerName-fajvi9, .attachButtonPlay-ZnFdQr, .input-cIJ7To, .icon-3cZ1F_, .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root, .headerTag-2pZJzA span, .nameTag-m8r81H .username-2b1r56 {
     color: var(--MainColor)!important;
 }
 
-.sidebar-2K8pFh.da-sidebar>div>div>div>div>div>svg>path, path[fill="rgb(114, 118, 125)"], path[fill="#72767d"] {
+.sidebar-2K8pFh.da-sidebar>div>div>div>div>div>svg>path, path[fill="rgb(114, 118, 125)"], path[fill="#72767d"]{
     fill: var(--MainColor)!important;
+}
+
+.overlayToggleIconOn-3UNmty .fill-1ugeBG, path[fill="#7289da"] {
+    fill: var(--SecondaryColor)!important;
 }
 
 .dividerContent-2L12VI:after, .dividerContent-2L12VI:before, .dividerRed-MKoLlr .dividerContent-2L12VI:after, .dividerRed-MKoLlr .dividerContent-2L12VI:before {
@@ -227,12 +285,16 @@ div>span>a:nth-child(1) {
     border-radius: .5em;
 }
 
-.clickable-3rdHwn .icon-22AiRD, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
-    color: var(--MainColor)!important;
+ .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
+ #bda-qem button.active, #bda-qem button.active:hover,
+ .bd-pfbtn,
+ .barFill-23-gu-,
+ .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+    background: var(--MainColor)!important;
     border-color: transparent!important;
 }
 
-.input-cIJ7To.focused-1mmYsC, .wrapper-3jrx9n, .emojiPicker-3m1S-j .categories-1feg4n .selected-39BZ4S, .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+.theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span, .input-cIJ7To.focused-1mmYsC, .wrapper-3jrx9n, .emojiPicker-3m1S-j .categories-1feg4n .selected-39BZ4S, .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
     border-color: var(--MainColor);
 }
 
@@ -251,7 +313,7 @@ div>span>a:nth-child(1) {
 }
 
 polyline {
-    stroke: var(--MainColor)!important;
+    stroke: var(--SecondaryColor)!important;
 }
 
 .checkbox-1ix_J3>svg {
@@ -481,7 +543,7 @@ polyline {
     border-top-color: var(--Unavailable)!important;
 }
 
-.layer-v9HyYc>div>div>div:nth-child(1)>div>svg>foreignObject>div {
+.layer-v9HyYc>div>div>div:nth-child(1)>div>svg>foreignObject>div, .lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
     background-color: var(--Online) !important;
 }
 
@@ -525,8 +587,7 @@ polyline {
 }
 
 .bodyInner-245q0L {
-    background: -webkit-linear-gradient(to bottom, var(--darkgrey), var(--darkgrey5));
-    background: linear-gradient(to bottom, var(--darkgrey), var(--darkgrey5));
+    background: var(--darkgrey)!important;
 }
 
 .footer-1fjuF6 {
@@ -545,7 +606,7 @@ polyline {
 }
 
 .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb{
-    background-color:var(--darkgrey5)!important;
+    background-color:var(--MainColor)!important;
     left: 0;
     border-color:transparent!important;
 }
@@ -641,7 +702,7 @@ polyline {
     padding: 1em .5em;
     border-radius: 0;
     border: none;
-    background: transparent;
+    background: var(--darkgrey)!important;
 }
 
 .bda-slist .bda-footer button, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .expandedFolderBackground-2sPsd-, .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
@@ -886,8 +947,7 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 }
 
 .privateChannels-1nO12o>div>div>span>a>div>.avatar-3uk_u9>div>svg>foreignObject, div[aria-label$=", Offline"]>svg>foreignObject, rect[fill="rgba(116, 127, 141, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-offline"] {
-    fill: transparent!important;
-    mask: none!important;
+    fill: var(--Offline)!important;
 }
 
 .header-QKLPzZ .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"], .header-2BwW8b .pointerEvents-2zdfdO[mask^="url(#svg-mask-status-streaming"] {
@@ -964,7 +1024,7 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
     display: none!important;
 }
 
-.bodyInner-245q0L, .footer-1fjuF6 {
+.footer-1fjuF6 {
     background-color: transparent!important;
     color: var(--MainColor)!important;
 }
@@ -1004,7 +1064,7 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
     padding: 0 .5em 0 0;
 }
 
-.bannerImage-1jOskm {
+.bannerImage-1jOskm, .pill-1dHPfk {
     border-radius: .5em;
 }
 
@@ -1080,7 +1140,7 @@ div.layer-v9HyYc.disabledPointerEvents-1ptgTB[style^="left: -97px"] {
 .rtcConnectionQualityAverage-3KV0u-,.rtcConnectionQualityAverage-3KV0u- .ping-2NgC8E{
     color:var(--Idle);
 }
-.rtcConnectionQualityBad-1J7mUU,.rtcConnectionQualityBad-1J7mUU .ping-2NgC8E{
+.rtcConnectionQualityBad-1J7mUU,.rtcConnectionQualityBad-1J7mUU .ping-2NgC8E, .beta-3smTDE{
     color:var(--Unavailable);
 }
 
@@ -1092,4 +1152,12 @@ div.layer-v9HyYc.disabledPointerEvents-1ptgTB[style^="left: -97px"] {
     margin: .25em 0;
     border-radius: 0 .5em .5em 0;
     background-color: var(--darkgrey5)!important;
+}
+
+.checked-3_4uQ9 {
+    background-color: var(--MainColor)!important;
+}
+
+.round-2jCFai {
+    border-radius: .5em!important;
 }
