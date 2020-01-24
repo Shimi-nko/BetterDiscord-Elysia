@@ -798,7 +798,7 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     height: 48px;
 }
 
-.chatContent-a9vAAp {
+.messagesWrapper-3lZDfY {
     margin-right: 3.5em;
 }
 
@@ -949,10 +949,7 @@ div[aria-label$=", Offline"]>svg>foreignObject, rect[fill="rgba(116, 127, 141, 1
 }
 
 .webkit-HjD9Er .buttons-3JBrkn {
-    right: 0;
-    top: 95.5%;
-    position: fixed;
-    bottom: 0;
+    margin: 0;
 }
 
 div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.da-scrollerWrap.da-firefoxFixScrollFlex.scrollerWrap-1IAIlv.da-scrollerWrap.scrollerThemed-2oenus.da-scrollerThemed.themeGhostHairline-DBD-2d > div > div:nth-child(1) > div.listItemWrapper-3X98Pc.da-listItemWrapper > div > svg > foreignObject > a > div > svg > path{

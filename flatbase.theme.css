@@ -79,7 +79,7 @@ div[style*="background-color: rgb(114, 137, 218);"], #bd-settingspane-container 
 }
 
 .topPill-30KHOu > div:nth-child(5), .total-3tKGEB, .header-2BwW8b, .regionSelect-3lf4eE:hover button, .barInner-3NDaY_,
- .checked-3_4uQ9, .footer-1fjuF6:after, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY,
+ .checked-3_4uQ9, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY,
   .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover,
    .css-1wqqa50-container, .searchBox-3Y2Vi7, .item-2hkk8m, .closeButton-1tv5uR,
    .lookFilled-1Gx00P.colorBrand-3pXr91, .modeSelected-1zApJ_ .content-3at_AU,
@@ -596,11 +596,6 @@ polyline {
     background: var(--darkgrey)!important;
 }
 
-.footer-1fjuF6 {
-    background: -webkit-linear-gradient(to bottom, var(--darkgrey5) 0%, var(--darkgrey) 20%);
-    background: linear-gradient(to bottom, var(--darkgrey5) 0%, var(--darkgrey) 20%);
-}
-
 .attachWrapper-2TRKBi, .scrollerThemed-2oenus.themedWithTrack-q8E3vB {
     background-color: transparent!important;
     border: none!important;
@@ -699,11 +694,6 @@ polyline {
     flex: 1 1 auto;
 }
 
-.footer-1fjuF6 {
-    padding: 0;
-    border: none!important;
-}
-
 .quickMessage-1yeL4E {
     padding: 1em .5em;
     border-radius: 0;
@@ -797,6 +787,7 @@ polyline {
 }
 
 .footer-1fjuF6:after {
+    background-color: var(--SecondaryColor)!important;
     position: relative;
     display: flex;
     content: "";
@@ -811,7 +802,7 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     height: 48px;
 }
 
-.chatContent-a9vAAp {
+.messagesWrapper-3lZDfY {
     margin-right: 3.5em;
 }
 
@@ -837,7 +828,9 @@ div.chat-3bRxxu.da-chat>div.content-yTz4x3.da-content>div.chatContent-a9vAAp.da-
     border-radius: .5em;
 }
 
-.total-3tKGEB { 
+.total-3tKGEB {
+    color: var(--SecondaryColor)!important;
+    font-weight: bold;
     padding: 0;
     border-radius: .5em;
 }
@@ -961,10 +954,7 @@ rect[fill="rgba(240, 71, 71, 1)"], .pointerEvents-2zdfdO[mask^="url(#svg-mask-st
 }
 
 .webkit-HjD9Er .buttons-3JBrkn {
-    right: 0;
-    top: 95.5%;
-    position: fixed;
-    bottom: 0;
+    margin: 0;
 }
 
 div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.da-scrollerWrap.da-firefoxFixScrollFlex.scrollerWrap-1IAIlv.da-scrollerWrap.scrollerThemed-2oenus.da-scrollerThemed.themeGhostHairline-DBD-2d > div > div:nth-child(1) > div.listItemWrapper-3X98Pc.da-listItemWrapper > div > svg > foreignObject > a > div > svg > path{
@@ -1033,6 +1023,8 @@ a[href="https://support.discordapp.com"] { display:none /*Fuck that*/}
 .footer-1fjuF6 {
     background-color: transparent!important;
     color: var(--MainColor)!important;
+    padding: 0;
+    border: none!important;
 }
 
 .note-3HfJZ5 textarea {
