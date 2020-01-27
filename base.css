@@ -26,6 +26,10 @@
     /*  MENUS COLORS  */
     --darkgrey: rgb(32, 32, 32);
     --darkgrey5: rgba(14, 14, 14, 0.75);
+    --HSL-size: 35px;
+    --HSL-spacing: 10px;
+    --HSL-roundness: .5em;
+    --HSL-roundnessHover: 20%;
 }
 
 /*END OF CONFIG*/
@@ -1089,10 +1093,6 @@ div.layer-v9HyYc.disabledPointerEvents-1ptgTB[style^="left: -97px"] {
     background-color: var(--MainColor)!important;
 }
 
-.round-2jCFai {
-    border-radius: .5em!important;
-}
-
 .wrapper-2h3Puq {
     margin: -10px 20px;
 }
@@ -1241,4 +1241,8 @@ div.layer-v9HyYc.disabledPointerEvents-1ptgTB[style^="left: -97px"] {
 
 .activityPanel-28dQGo, .card-FDVird:before, .regionSelect-3lf4eE button, .container-1giJp5, .total-3tKGEB:after, .wrapper-29NfPK.normal-2GSW0u .center-1Vp33r {
     border: none!important;
+}
+
+.round-2jCFai, .folderIconWrapper-226oVY {
+    border-radius: .5em!important;
 }
