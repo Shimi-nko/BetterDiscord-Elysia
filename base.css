@@ -54,7 +54,23 @@
     border: none!important;
 }
 
-.selected-aXhQR6 .layout-2DM8Md, .actionButton-VzECiy, .colorPickerSwatch-5GX3Ve.default-cS_caM, .folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.4);"], div[style*="background-color: rgb(114, 137, 218);"], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .topPill-30KHOu>div:nth-child(5), .regionSelect-3lf4eE:hover button, .barInner-3NDaY_, .checked-3_4uQ9, .footer-1fjuF6:after, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY, .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover, .css-1wqqa50-container, .searchBox-3Y2Vi7, .item-2hkk8m, .isMentionedCozy-3isp7y:after, .closeButton-1tv5uR, .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .circleIconButton-jET_ig, #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .bda-slist .bda-footer button, .lookOutlined-3sRXeN.colorBrand-3pXr91, .unread-3zKkbm, .appMount-3lHmkl, body, html {
+.hljs-addition, .hljs-keyword, .hljs-selector-tag {
+    color: #03a0c3;
+}
+
+.hljs-bullet, .hljs-link, .hljs-meta, .hljs-meta .hljs-keyword, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {
+    color: #ef3232;
+}
+
+.hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {
+    color: #ffeb00;
+}
+
+.hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
+    color: #11d28b;
+}
+
+.actionButton-uPB8Fs, .selected-aXhQR6 .layout-2DM8Md, .actionButton-VzECiy, .colorPickerSwatch-5GX3Ve.default-cS_caM, .folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.4);"], div[style*="background-color: rgb(114, 137, 218);"], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .topPill-30KHOu>div:nth-child(5), .regionSelect-3lf4eE:hover button, .barInner-3NDaY_, .checked-3_4uQ9, .footer-1fjuF6:after, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY, .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover, .css-1wqqa50-container, .searchBox-3Y2Vi7, .item-2hkk8m, .isMentionedCozy-3isp7y:after, .closeButton-1tv5uR, .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .circleIconButton-jET_ig, #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .bda-slist .bda-footer button, .lookOutlined-3sRXeN.colorBrand-3pXr91, .unread-3zKkbm, .appMount-3lHmkl, body, html {
     background: -webkit-linear-gradient(100deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
     background: linear-gradient(100deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
     background-size: 1500% 1500%!important;
@@ -84,8 +100,7 @@
     --HSL-roundness: .5em;
     --HSL-roundnessHover: 20%;
 }
-
-::placeholder, body, button, input, select, textarea {
+::-webkit-input-placeholder, ::placeholder, body, button, input, select, textarea {
     font-family: var(--font)!important;
 }
 
@@ -1247,3 +1262,13 @@ div.layer-v9HyYc.disabledPointerEvents-1ptgTB[style^="left: -97px"] {
 .round-2jCFai, .folderIconWrapper-226oVY {
     border-radius: .5em!important;
 }
+
+.layers-3iHuyZ {
+    position: static; 
+}
+
+.actionButton-uPB8Fs {
+    border-radius: .5em;
+}
+
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 { border-radius: .5em!important; }
